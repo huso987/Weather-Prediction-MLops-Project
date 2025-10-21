@@ -16,21 +16,8 @@ Proje, veri ön işleme, model eğitimi, API ile tahmin ve Docker tabanlı dağ�
 
 ## 🔹 Dosya Yapısı
 
-weather-mlops/
-├── README.md
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml (opsiyonel)
-├── src/
-│ ├── app.py # FastAPI inference
-│ ├── preprocess.py # veri hazırlama
-│ ├── train.py # model eğitimi
-│ ├── utils.py # helper fonksiyonlar
-├── data/
-│ ├── raw/ # raw dataset
-│ └── processed/ # işlenmiş dataset
-├── models/ # eğitilmiş model
-└── leetcode_solutions/ # (opsiyonel)
+<img width="317" height="291" alt="Screenshot from 2025-10-21 17-30-59" src="https://github.com/user-attachments/assets/a591b728-70cd-4f4d-a2f4-b44b6e8773e9" />
+
 
 ## 🔹 Kurulum
 
@@ -48,3 +35,4 @@ env\Scripts\activate      # Windows
 # 3.Gereksinimleri yükle:
 
 pip install -r requirements.txt
+
