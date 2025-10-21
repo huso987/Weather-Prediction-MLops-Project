@@ -1,0 +1,16 @@
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+      - src/preprocess.py
+      - src/utils.py
+      - data/raw/weather.csv
+    outs:
+      - data/processed/weather.pkl
+  train:
+    cmd: python src/train.py
+    deps:
+      - src/train.py
+      - data/processed/weather.pkl
+    outs:
+      - models/weather_model.pkl
