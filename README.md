@@ -12,7 +12,7 @@ Proje, veri ön işleme, model eğitimi, API ile tahmin ve Docker tabanlı dağ�
 - DVC ile veri ve model yönetimi (opsiyonel)
 - Test için örnek JSON input/output
 
----
+------
 
 ## 🔹 Dosya Yapısı
 
@@ -35,4 +35,5 @@ env\Scripts\activate      # Windows
 # 3.Gereksinimleri yükle:
 
 pip install -r requirements.txt
+
 
